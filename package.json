@@ -8,5 +8,9 @@
   "devDependencies": {
     "@vercel/node": "^5.5.3",
     "typescript": "^5.5.3"
+  },
+  "overrides": {
+    "glob": "^10.4.2",
+    "rimraf": "^5.0.7"
   }
 }
