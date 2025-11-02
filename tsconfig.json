@@ -6,10 +6,9 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "rootDir": ".",
     "outDir": ".vercel/output/functions"
   },
-  "include": [
-    "api/**/*.ts"
+  "files": [
+    "api/gemini.ts"
   ]
 }
