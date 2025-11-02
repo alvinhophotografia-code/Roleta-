@@ -1,6 +1,5 @@
 {
   "framework": null,
   "installCommand": "npm install",
-  "buildCommand": "tsc -p tsconfig.json",
-  "outputDirectory": "."
+  "buildCommand": "tsc -p tsconfig.json && mkdir -p .vercel/output/static && cp index.html index.tsx metadata.json manifest.json service-worker.js .vercel/output/static/ && cp -r src .vercel/output/static/"
 }
